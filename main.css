@@ -1,0 +1,27 @@
+html, body {
+  margin: 0;
+}
+
+section {
+  height: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-content: space-between;
+}
+
+.background-video {
+  align-self: flex-end;
+  width: 100%;
+}
+
+#logo {
+  position: fixed;
+  z-index: 10;
+  width: 200px;
+  margin: 20px;
+}
+
+#greentea {
+  background-color: #BAD9C8;
+}
