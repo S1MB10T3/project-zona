@@ -8,18 +8,34 @@ section {
   display: flex;
   flex-direction: row;
   align-content: space-between;
+  justify-content: center;
+  align-items: center;
+}
+
+video {
+  position: absolute;
+}
+
+.can-video {
+  margin: 0 auto;
+  z-index: 10;
+  align-self: center;
+  justify-content: center;
+  height: 80%;
 }
 
 .background-video {
   align-self: flex-end;
+  justify-content: center;
   width: 100%;
+  z-index: 1;
 }
 
 #logo {
   position: fixed;
   z-index: 10;
-  width: 200px;
-  margin: 20px;
+  width: 300px;
+  margin: 50px;
 }
 
 #greentea {
